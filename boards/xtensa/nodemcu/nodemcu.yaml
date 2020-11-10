@@ -1,0 +1,12 @@
+identifier: nodemcu
+name: NodeMCU ESP-32 Development Board
+type: mcu
+arch: xtensa
+toolchain:
+  - espressif
+supported:
+  - gpio
+  - i2c
+  - watchdog
+  - uart
+  - pinmux
